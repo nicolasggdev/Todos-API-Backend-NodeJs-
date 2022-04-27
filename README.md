@@ -8,6 +8,8 @@ https://documenter.getpostman.com/view/18428706/UyrEgEiH
 
 ## Deploy
 
+https://todo-project-nicolas.herokuapp.com/api/v1/todos
+
 ## Inicia el proyecto
 
 Si desea ver el proyecto localmente, debe instalar las dependencias para ver correctamente la API.
@@ -45,6 +47,8 @@ To-do list API. Said API counts with different endpoints that users can use to m
 https://documenter.getpostman.com/view/18428706/UyrEgEiH
 
 ## Deploy
+
+https://todo-project-nicolas.herokuapp.com/api/v1/todos
 
 ## Start the project
 
