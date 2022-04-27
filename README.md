@@ -8,11 +8,11 @@ https://documenter.getpostman.com/view/18428706/UyrEgEiH
 
 ## Deploy
 
-## Start the project
+## Inicia el proyecto
 
 Si desea ver el proyecto localmente, debe instalar las dependencias para ver correctamente la API.
 
-## Install and start
+## Instación e inicio
 
 ### `npm install`
 
