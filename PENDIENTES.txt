@@ -1,3 +1,0 @@
-README
-Deploy de la api
-Cambiar el consumible del frontend por el deploy
