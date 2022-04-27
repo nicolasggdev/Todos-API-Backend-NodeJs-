@@ -1,4 +1,3 @@
-// Filter Object
 const filterObj = (Objt, ...content) => {
   const newTodo = {};
   Object.keys(Objt).forEach((property) => {

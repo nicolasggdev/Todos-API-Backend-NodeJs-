@@ -1,40 +1,34 @@
-//  Import Express
 const express = require("express");
 
-// Import Cors
 const cors = require("cors");
 
-// Import Database
-const { sequelize } = require("./utils/database");
+const helmet = require("helmet");
 
-// Import Router
+const rateLimit = require("express-rate-limit");
+
+const compression = require("compression");
+
 const { todosRouter } = require("./routes/todos.routes");
 
-// Init Express
 const app = express();
 
-// Enable to receive JSON
 app.use(express.json());
 
-// Enable to use localhost 3000 (Frontend) and 4000 (Backend)
+app.use(helmet());
+
+app.use(compression());
+
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100,
+  message:
+    "Too many accounts created from this IP, please try again after an hour"
+});
+
+app.use(limiter);
+
 app.use(cors());
 
-// Enable the endpoints
 app.use("/api/v1/todos", todosRouter);
 
-// Database authenticated
-sequelize
-  .authenticate()
-  .then(() => console.log("Database authenticated"))
-  .catch((err) => console.log(err));
-
-// Database sync
-sequelize
-  .sync()
-  .then(() => console.log("Database synced"))
-  .catch((err) => console.log(err));
-
-// http://localhost:4000
-app.listen(4000, () => {
-  console.log("Express Running");
-});
+module.exports = { app };

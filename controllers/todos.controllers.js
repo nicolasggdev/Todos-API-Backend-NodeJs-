@@ -1,8 +1,6 @@
-// Import Model
 const { Todo } = require("../model/todo.model");
 
-// Import Utils
-const { filterObj } = require("../utils/functions.utils");
+const { filterObj } = require("../utils/functions");
 
 // Get all the todos
 exports.getAllTodos = async (req, res) => {
@@ -80,5 +78,3 @@ exports.deleteTodo = async (req, res) => {
     console.log(err);
   }
 };
-
-// comentario de prueba

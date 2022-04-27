@@ -1,7 +1,5 @@
-// Import Conection to database
 const { sequelize } = require("../utils/database");
 
-// Import DataTypes
 const { DataTypes } = require("sequelize");
 
 const Todo = sequelize.define("todos", {
