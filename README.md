@@ -8,7 +8,7 @@ https://documenter.getpostman.com/view/18428706/UyrEgEiH
 
 ## Deploy
 
-https://todo-project-nicolas.herokuapp.com/api/v1/todos
+https://todo-project-nicolas.herokuapp.com
 
 ## Inicia el proyecto
 
