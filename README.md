@@ -8,7 +8,7 @@ https://documenter.getpostman.com/view/18428706/UyrEgEiH
 
 ## Deploy
 
-https://todo-project-nicolas.herokuapp.com
+https://todos-api-nodejs-production-ngg.up.railway.app
 
 ## Inicia el proyecto
 
@@ -48,7 +48,7 @@ https://documenter.getpostman.com/view/18428706/UyrEgEiH
 
 ## Deploy
 
-https://todo-project-nicolas.herokuapp.com/api/v1/todos
+https://todos-api-nodejs-production-ngg.up.railway.app
 
 ## Start the project
 
