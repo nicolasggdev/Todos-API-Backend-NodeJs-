@@ -8,7 +8,7 @@ https://documenter.getpostman.com/view/18428706/UyrEgEiH
 
 ## Deploy
 
-https://todongg-api.fly.dev
+https://todos-api-nodejs-production.up.railway.app
 
 ## Inicia el proyecto
 
@@ -48,7 +48,7 @@ https://documenter.getpostman.com/view/18428706/UyrEgEiH
 
 ## Deploy
 
-https://todongg-api.fly.dev
+https://todos-api-nodejs-production.up.railway.app
 
 ## Start the project
 
